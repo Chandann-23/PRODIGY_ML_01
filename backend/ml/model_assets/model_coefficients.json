@@ -1,0 +1,24 @@
+{
+  "features": [
+    "square_footage",
+    "bedrooms",
+    "bathrooms"
+  ],
+  "coefficients": {
+    "square_footage": 104.0263070122644,
+    "bedrooms": -26655.165357341266,
+    "bathrooms": 30014.324108956618
+  },
+  "intercept": 52261.748626944594,
+  "metrics": {
+    "r2": 0.6341189942328371,
+    "rmse": 52975.71771338122,
+    "mae": 35788.061292436294,
+    "n_samples": 1460
+  },
+  "dataset_info": {
+    "source": "Ames Housing Dataset",
+    "download_date": "2026-06-16 16:57:01"
+  },
+  "trained_at": "2026-06-16T16:57:01.140219"
+}
