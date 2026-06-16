@@ -501,11 +501,11 @@ function App() {
 
         {/* Connection Issue Warning */}
         {error && (
-          <div className="glass-panel" style={{ border: '1px solid rgba(248, 113, 113, 0.3)', background: 'rgba(220, 38, 38, 0.08)', marginBottom: '30px', display: 'flex', alignItems: 'center', gap: '15px' }}>
-            <AlertTriangle size={24} style={{ color: '#fca5a5' }} />
+          <div style={{ border: '1px solid rgba(220, 38, 38, 0.2)', background: 'rgba(220, 38, 38, 0.05)', borderRadius: '16px', padding: '20px 24px', marginBottom: '30px', display: 'flex', alignItems: 'center', gap: '15px', boxShadow: 'var(--shadow-sm)' }}>
+            <AlertTriangle size={24} style={{ color: '#dc2626' }} />
             <div>
-              <h4 style={{ color: '#fff' }}>ML Pipeline Error</h4>
-              <p style={{ color: 'var(--text-card-secondary)', fontSize: '0.9rem' }}>{error}</p>
+              <h4 style={{ color: '#991b1b', fontSize: '1rem', fontWeight: 700, marginBottom: '4px' }}>ML Pipeline Error</h4>
+              <p style={{ color: '#b91c1c', fontSize: '0.9rem', fontWeight: 500 }}>{error}</p>
             </div>
           </div>
         )}
